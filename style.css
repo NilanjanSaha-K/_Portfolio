@@ -1,0 +1,87 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0C0C0C, #481E14, #9B3922, #F2613F );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }}
+.bg-image{
+  background-image: url(./Assets/Gemini_Generated_Image_2kmzr12kmzr12kmz.jfif);
+  width: 100%;
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating of the image */ 
+}
+
+.lead{
+  color: aliceblue;
+}
+.first-h{
+  font-family: "Kalam", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: aliceblue !important;
+}
+.first-p{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.image-div{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+.image{
+  display:block;
+  height: 200px;
+  border-radius: 50%;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3%;
+  color: aliceblue;
+}
+.skills > h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Merienda", cursive;
+  font-weight: 800;
+}
+.ABC{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 50px;
+}
+.skills h4{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+@media(min-width:750px) and (max-width:850px){
+  .ABC{
+    display: inline-block;
+    width: fit-content;
+  }
+  .technical-skills img{
+    float: left;
+  }
+}
+@media(max-width:750px){
+  .ABC{
+    display:block;
+    width: fit-content;
+  }
+}

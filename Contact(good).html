@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .Main{
+        display: flex;
+        justify-content: center;
+        gap: 15%;
+        background-image: url(./Contact\ us.jpg);
+        width: 100%;
+        background-size: cover; /* Ensures the image covers the entire div */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents repeating of the image */ 
+      }
+      .contact-us{
+        display: flex;
+        flex-direction:column ;
+        margin: 20px;
+        padding: 30px;
+      }
+      .contact-us h1{
+        color: #ccc;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .element{
+        color: #ccc;
+        display: inline-flex;
+      }
+      .component{
+        padding-left: 10px;
+        color: #ccc;
+      }
+      .get-in-touch{
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        
+      }
+      .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        max-width: 90%;
+        border-radius: 3%;
+        box-sizing: border-box;
+      }
+      .container > h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+      .btn{
+        border: none;
+      }
+    @media(max-width:848px){
+      .Main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        height: 100%;
+      }
+      
+      .get-in-touch{
+        padding-bottom: 20px;
+      }
+    }
+      
+    </style>
+</head>
+<body>
+      <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-white">How can we help you?</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">Thank you for visiting our website! We value your feedback, inquiries, and collaboration opportunities. If you have any questions or doubts regarding anything, please don't hesitate to contact us. We are committed to responding to your messages promptly and look forward to connecting with you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="Main">
+        <div class="contact-us">
+          <div>
+            <h1>Contact Us</h1>
+          </div>
+          <div class="Address element">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z"/>
+              <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+              </svg> 
+            </div>
+            <div class="component">
+              <a href="https://www.google.com/maps/place/Shankha+apartment/@22.5868479,88.4346379,17z/data=!3m1!4b1!4m6!3m5!1s0x3a02755c4ce71069:0xca73009be8cf415b!8m2!3d22.5868479!4d88.4346379!16s%2Fg%2F11hy_mkm25?entry=ttu"><button type="button" class="btn btn-outline-light"><h5>ADDRESS</h5></button></a>
+            </div>
+          </div>
+          <div class="Phone element">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg>
+            </div> 
+            <div class="component">
+              <a href="tel:+91 8820214133"><button type="button" class="btn btn-outline-light"><h5>PHONE</h5></button></a>
+            </div>
+          </div>
+          <div class="Email element">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-dots" viewBox="0 0 16 16">
+              <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+              <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+              </svg> 
+            </div>
+            <div class="component">
+              <a href="mailto:nilanjansaha74@gmail.com"><button type="button" class="btn btn-outline-light"><h5>EMAIL</h5></button></a>
+            </div>
+          </div>
+          <div class="Website element">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+              </svg>
+            </div> 
+            <div class="component">
+              <a href="https://www.linkedin.com/in/nilanjan-saha-2449961a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button type="button" class="btn btn-outline-light"><h5>WEBSITE</h5></button></a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="get-in-touch">
+          <div class="container">
+            <h1>Get in touch</h1>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+                <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
